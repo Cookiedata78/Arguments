@@ -4,9 +4,8 @@ __human_name__ = 'arguments'
 
 # Add your code after this line
 # Part 1: Greet template
-def greeting(name):
-    return f'Hola {name} , How are you!'
-
+def greeting(name ,template='Hello , <name>!'):
+    pass
 print(greeting('Clara'))
 
 # Part 2: Force
@@ -34,6 +33,6 @@ print(force(mass))
 
 #Part 3:Gravity
 def pull(m1, m2, d):
-    G = 6.67408 * 10**-11
+    G = 6.674 * 10**-11
     return (G * m1 * m2) / d**2;
 print(pull(3.5, 68.6, 6))
