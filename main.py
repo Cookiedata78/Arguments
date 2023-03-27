@@ -5,7 +5,7 @@ __human_name__ = 'arguments'
 # Add your code after this line
 # Part 1: Greet template
 def greeting(name ,template='Hello , <name>!'):
-    pass
+    return name
 print(greeting('Clara'))
 
 # Part 2: Force
