@@ -4,9 +4,9 @@ __human_name__ = 'arguments'
 
 # Add your code after this line
 # Part 1: Greet template
-def greeting(name ,template='Hello , Clara!'):
-    return template
-print(greeting('name'))
+def greeting(name ,template='Hello , <name>!'):
+    return template.replace('<name>',name)
+print(greeting('Clara'))
 
 # Part 2: Force
 def force(mass, body='earth'):
